@@ -5,23 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anthology Cloud Operations</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3010d94d2f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Anthology Cloud Operations</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#technologies">Technologies</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#case-studies">Case Studies</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <h1>Anthology Cloud Operations</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    
+    <section class="hero">
+        <h2>Empowering Education Through Cloud Technology</h2>
+        <p>Anthology Cloud Operations provides comprehensive cloud management solutions designed specifically for educational institutions. Our expert team ensures your cloud infrastructure runs smoothly, securely, and efficiently.</p>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+        <a href="#services" class="btn btn-secondary">Explore Services</a>
+    </section>
     
     <main>
         <section id="about">
@@ -32,47 +43,174 @@
         
         <section id="services">
             <h2>Our Services</h2>
-            <ul>
-                <li>Cloud Migration</li>
-                <li>Infrastructure Management</li>
-                <li>Performance Optimization</li>
-                <li>Security Monitoring</li>
-                <li>Backup & Recovery</li>
-                <li>Cost Optimization</li>
-                <li>24/7 Support</li>
-                <li>Disaster Recovery Planning</li>
-                <li>AI Ops</li>
-            </ul>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Cloud Migration</h3>
+                        <p>Seamlessly migrate your existing infrastructure to the cloud with minimal disruption to your educational operations.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Infrastructure Management</h3>
+                        <p>Comprehensive management of your cloud infrastructure, ensuring optimal performance and reliability.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Performance Optimization</h3>
+                        <p>Fine-tune your cloud resources to deliver maximum performance for all your educational applications.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Security Monitoring</h3>
+                        <p>Proactive security monitoring and threat detection to protect sensitive educational data.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Backup & Recovery</h3>
+                        <p>Robust backup solutions and disaster recovery planning to ensure your data is always protected.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Cost Optimization</h3>
+                        <p>Strategic resource allocation to minimize costs while maintaining optimal performance.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>24/7 Support</h3>
+                        <p>Round-the-clock technical support to address any issues that may arise with your cloud infrastructure.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-life-ring"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Disaster Recovery</h3>
+                        <p>Comprehensive disaster recovery planning to ensure business continuity in any situation.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card ai-ops">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>AI Ops</h3>
+                        <p>Leverage artificial intelligence to proactively manage and optimize your cloud infrastructure.</p>
+                    </div>
+                </div>
+            </div>
             
-            <div class="service-highlight">
+            <div class="ai-ops-detail">
                 <h3>AI Ops - Our Latest Service</h3>
-                <p>Anthology's AI Operations brings cutting-edge artificial intelligence to your cloud infrastructure management. Our AI Ops service leverages machine learning algorithms to:</p>
-                <ul>
-                    <li>Predict and prevent system failures before they occur</li>
-                    <li>Automatically scale resources based on usage patterns</li>
-                    <li>Identify security threats using advanced anomaly detection</li>
-                    <li>Optimize costs through intelligent resource allocation</li>
-                    <li>Generate actionable insights from your operational data</li>
-                </ul>
+                <p>Anthology's AI Operations brings cutting-edge artificial intelligence to your cloud infrastructure management. Our AI Ops service leverages machine learning algorithms to transform your institution's IT operations.</p>
+                
+                <div class="ai-features">
+                    <div class="ai-feature-item">
+                        <div class="ai-feature-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div>
+                            <h4>Predictive Analytics</h4>
+                            <p>Predict and prevent system failures before they occur, minimizing downtime and ensuring consistent access to educational resources.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-feature-item">
+                        <div class="ai-feature-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div>
+                            <h4>Intelligent Scaling</h4>
+                            <p>Automatically scale resources based on usage patterns, ensuring optimal performance during peak periods like enrollment and exam times.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-feature-item">
+                        <div class="ai-feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Advanced Threat Detection</h4>
+                            <p>Identify security threats using sophisticated anomaly detection, protecting sensitive student and institutional data.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-feature-item">
+                        <div class="ai-feature-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div>
+                            <h4>Cost Optimization</h4>
+                            <p>Optimize costs through intelligent resource allocation, ensuring your institution gets maximum value from its cloud investment.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-feature-item">
+                        <div class="ai-feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div>
+                            <h4>Actionable Insights</h4>
+                            <p>Generate meaningful insights from your operational data, supporting strategic IT decision-making.</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <p>Designed specifically for educational institutions, our AI Ops solution understands the unique patterns of academic schedules, enrollment fluctuations, and institutional workflows.</p>
+                <a href="#contact" class="btn btn-primary">Learn More About AI Ops</a>
             </div>
         </section>
 
         <section id="technologies">
             <h2>Technologies We Support</h2>
             <div class="tech-grid">
-                <div class="tech-item">
+                <div class="tech-card">
                     <h3>Cloud Platforms</h3>
-                    <ul>
+                    <ul class="tech-list">
                         <li>Amazon Web Services (AWS)</li>
                         <li>Microsoft Azure</li>
                         <li>Google Cloud Platform (GCP)</li>
                         <li>Oracle Cloud</li>
                     </ul>
                 </div>
-                <div class="tech-item">
+                <div class="tech-card">
                     <h3>Virtualization</h3>
-                    <ul>
+                    <ul class="tech-list">
                         <li>VMware</li>
                         <li>Hyper-V</li>
                         <li>KVM</li>
@@ -80,9 +218,9 @@
                         <li>Kubernetes</li>
                     </ul>
                 </div>
-                <div class="tech-item">
+                <div class="tech-card">
                     <h3>Monitoring & Management</h3>
-                    <ul>
+                    <ul class="tech-list">
                         <li>New Relic</li>
                         <li>Datadog</li>
                         <li>Prometheus</li>
@@ -95,31 +233,57 @@
         
         <section id="testimonials">
             <h2>Customer Testimonials</h2>
-            <div class="testimonial">
-                <blockquote>"Anthology's cloud operations team transformed our IT infrastructure. We've seen significant improvements in performance and reliability while reducing our overall costs."</blockquote>
-                <p class="author">— Dr. Sarah Johnson, CIO, Pacific Northwest University</p>
-            </div>
-            <div class="testimonial">
-                <blockquote>"The migration to cloud was seamless thanks to Anthology. Their team's expertise and attention to detail made what could have been a complex project straightforward and stress-free."</blockquote>
-                <p class="author">— Michael Rivera, IT Director, Eastwood Community College</p>
-            </div>
-            <div class="testimonial">
-                <blockquote>"Having Anthology manage our cloud infrastructure has allowed our internal team to focus on innovation rather than maintenance. It's been a game-changer for us."</blockquote>
-                <p class="author">— Jennifer Wu, Associate Dean of Technology, Riverdale Institute</p>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "Anthology's cloud operations team transformed our IT infrastructure. We've seen significant improvements in performance and reliability while reducing our overall costs."
+                    </div>
+                    <div class="testimonial-author">Dr. Sarah Johnson</div>
+                    <div class="testimonial-role">CIO, Pacific Northwest University</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "The migration to cloud was seamless thanks to Anthology. Their team's expertise and attention to detail made what could have been a complex project straightforward and stress-free."
+                    </div>
+                    <div class="testimonial-author">Michael Rivera</div>
+                    <div class="testimonial-role">IT Director, Eastwood Community College</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        "Having Anthology manage our cloud infrastructure has allowed our internal team to focus on innovation rather than maintenance. It's been a game-changer for us."
+                    </div>
+                    <div class="testimonial-author">Jennifer Wu</div>
+                    <div class="testimonial-role">Associate Dean of Technology, Riverdale Institute</div>
+                </div>
             </div>
         </section>
 
         <section id="case-studies">
             <h2>Case Studies</h2>
-            <div class="case-study">
-                <h3>Large University System Migration</h3>
-                <p>Successfully migrated a 12-campus university system to AWS, consolidating 200+ applications and achieving 35% cost reduction while improving system reliability by 99.99%.</p>
-                <a href="#" class="read-more">Read full case study</a>
-            </div>
-            <div class="case-study">
-                <h3>Community College Security Enhancement</h3>
-                <p>Implemented comprehensive security protocols for a multi-site community college, protecting sensitive student data and ensuring FERPA compliance across all cloud services.</p>
-                <a href="#" class="read-more">Read full case study</a>
+            <div class="case-studies-container">
+                <div class="case-study-card">
+                    <div class="case-study-content">
+                        <h3>Large University System Migration</h3>
+                        <p>Successfully migrated a 12-campus university system to AWS, consolidating 200+ applications and achieving 35% cost reduction while improving system reliability by 99.99%.</p>
+                        <a href="#" class="read-more">Read full case study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-content">
+                        <h3>Community College Security Enhancement</h3>
+                        <p>Implemented comprehensive security protocols for a multi-site community college, protecting sensitive student data and ensuring FERPA compliance across all cloud services.</p>
+                        <a href="#" class="read-more">Read full case study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-content">
+                        <h3>AI-Driven Performance Optimization</h3>
+                        <p>Deployed our AI Ops solution at a leading research university, resulting in a 40% reduction in incident response time and 25% improvement in resource utilization.</p>
+                        <a href="#" class="read-more">Read full case study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -127,90 +291,165 @@
             <h2>Our Team</h2>
             <p>The Anthology Cloud Operations team consists of certified cloud architects, security specialists, and educational technology experts with decades of combined experience in higher education IT.</p>
             <div class="team-grid">
-                <div class="team-member">
-                    <h3>Alex Chen</h3>
-                    <p class="title">Director of Cloud Operations</p>
-                    <p>15+ years experience in educational cloud architecture</p>
+                <div class="team-member-card">
+                    <div class="team-member-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="team-member-info">
+                        <h3>Alex Chen</h3>
+                        <div class="team-member-title">Director of Cloud Operations</div>
+                        <p>15+ years experience in educational cloud architecture</p>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <h3>Maya Patel</h3>
-                    <p class="title">Cloud Security Lead</p>
-                    <p>Former CISO at major research university</p>
+                <div class="team-member-card">
+                    <div class="team-member-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="team-member-info">
+                        <h3>Maya Patel</h3>
+                        <div class="team-member-title">Cloud Security Lead</div>
+                        <p>Former CISO at major research university</p>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <h3>Carlos Rodriguez</h3>
-                    <p class="title">Infrastructure Manager</p>
-                    <p>AWS & Azure certified architect</p>
+                <div class="team-member-card">
+                    <div class="team-member-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="team-member-info">
+                        <h3>Carlos Rodriguez</h3>
+                        <div class="team-member-title">Infrastructure Manager</div>
+                        <p>AWS & Azure certified architect</p>
+                    </div>
+                </div>
+                <div class="team-member-card">
+                    <div class="team-member-photo">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="team-member-info">
+                        <h3>Emma Watson</h3>
+                        <div class="team-member-title">AI Operations Specialist</div>
+                        <p>Expert in machine learning for IT operations</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="news">
             <h2>Latest News</h2>
-            <div class="news-item">
-                <h3>Anthology Cloud Ops Achieves AWS Education Competency</h3>
-                <p class="date">March 15, 2025</p>
-                <p>Anthology's Cloud Operations team has been recognized by AWS for demonstrated technical proficiency and proven success in education.</p>
-            </div>
-            <div class="news-item">
-                <h3>New AI-Powered Monitoring Tools Deployed</h3>
-                <p class="date">February 22, 2025</p>
-                <p>Anthology introduces new AI-powered monitoring capabilities to detect and resolve potential issues before they impact educational services.</p>
+            <div class="news-container">
+                <div class="news-card">
+                    <div class="news-image">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">March 15, 2025</div>
+                        <h3>Anthology Cloud Ops Achieves AWS Education Competency</h3>
+                        <p>Anthology's Cloud Operations team has been recognized by AWS for demonstrated technical proficiency and proven success in education.</p>
+                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">February 22, 2025</div>
+                        <h3>New AI-Powered Monitoring Tools Deployed</h3>
+                        <p>Anthology introduces new AI-powered monitoring capabilities to detect and resolve potential issues before they impact educational services.</p>
+                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">January 10, 2025</div>
+                        <h3>Anthology Launches Enhanced AI Ops Service</h3>
+                        <p>Our newest offering leverages advanced artificial intelligence to revolutionize cloud infrastructure management for educational institutions.</p>
+                        <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
         
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Have questions about our cloud operations? Get in touch with our team to schedule a consultation.</p>
-            <p>Email: cloud-ops@anthology.com</p>
-            <p>Phone: (123) 456-7890</p>
-            <form class="contact-form">
-                <h3>Request Information</h3>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Your Name">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have questions about our cloud operations? Our team is ready to help you transform your institution's cloud infrastructure.</p>
+                    <p><i class="fas fa-envelope"></i> Email: cloud-ops@anthology.com</p>
+                    <p><i class="fas fa-phone"></i> Phone: (123) 456-7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 101 Innovation Drive, Education Valley, CA 94123</p>
+                    <p>Schedule a consultation with our cloud experts to discuss your specific needs and how Anthology Cloud Operations can help you achieve your educational technology goals.</p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Your Email">
+                
+                <div class="contact-form">
+                    <h3>Request Information</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="institution">Institution</label>
+                            <input type="text" id="institution" class="form-control" placeholder="Your Institution">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="How can we help?"></textarea>
+                        </div>
+                        <button type="submit">Submit Request</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="institution">Institution</label>
-                    <input type="text" id="institution" placeholder="Your Institution">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" placeholder="How can we help?"></textarea>
-                </div>
-                <button type="submit">Submit Request</button>
-            </form>
+            </div>
         </section>
     </main>
     
     <footer>
-        <div class="footer-content">
+        <div class="footer-container">
             <div class="footer-section">
                 <h3>Anthology Cloud Operations</h3>
                 <p>Empowering educational institutions through innovative cloud solutions.</p>
             </div>
             <div class="footer-section">
                 <h3>Quick Links</h3>
-                <ul>
+                <ul class="footer-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
                     <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#services">Cloud Migration</a></li>
+                    <li><a href="#services">Infrastructure Management</a></li>
+                    <li><a href="#services">Security Monitoring</a></li>
+                    <li><a href="#services">AI Ops</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Connect With Us</h3>
                 <div class="social-links">
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">YouTube</a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
-        <p class="copyright">&copy; 2025 Anthology Cloud Operations. All rights reserved.</p>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2025 Anthology Cloud Operations. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
